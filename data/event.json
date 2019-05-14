@@ -1,17 +1,17 @@
 {
-    "resource": "/conferences",
-    "path": "/conferences",
+    "resource": "/conferences/{year}",
+    "path": "/conferences/2020",
     "httpMethod": "GET",
     "headers": {
         "Accept": "*/*",
         "accept-encoding": "gzip, deflate",
         "cache-control": "no-cache",
         "Host": "aij4t1he5a.execute-api.eu-central-1.amazonaws.com",
-        "Postman-Token": "517e03aa-fd4c-422e-a0f6-994b1ef3255c",
+        "Postman-Token": "febf0e7f-02da-43bf-900b-41abaac903b0",
         "User-Agent": "PostmanRuntime/7.6.0",
-        "X-Amzn-Trace-Id": "Root=1-5cda94f8-5749bf54283cf47a04bf4b92",
+        "X-Amzn-Trace-Id": "Root=1-5cdb3490-3ab85624fb6a892088b7eaac",
         "X-Auth": "ab",
-        "X-Forwarded-For": "88.128.80.209",
+        "X-Forwarded-For": "81.173.233.140",
         "X-Forwarded-Port": "443",
         "X-Forwarded-Proto": "https"
     },
@@ -29,19 +29,19 @@
             "aij4t1he5a.execute-api.eu-central-1.amazonaws.com"
         ],
         "Postman-Token": [
-            "517e03aa-fd4c-422e-a0f6-994b1ef3255c"
+            "febf0e7f-02da-43bf-900b-41abaac903b0"
         ],
         "User-Agent": [
             "PostmanRuntime/7.6.0"
         ],
         "X-Amzn-Trace-Id": [
-            "Root=1-5cda94f8-5749bf54283cf47a04bf4b92"
+            "Root=1-5cdb3490-3ab85624fb6a892088b7eaac"
         ],
         "X-Auth": [
             "ab"
         ],
         "X-Forwarded-For": [
-            "88.128.80.209"
+            "81.173.233.140"
         ],
         "X-Forwarded-Port": [
             "443"
@@ -50,39 +50,31 @@
             "https"
         ]
     },
-    "queryStringParameters": {
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": {
         "year": "2020"
     },
-    "multiValueQueryStringParameters": {
-        "year": [
-            "2020"
-        ]
-    },
-    "pathParameters": null,
     "stageVariables": null,
     "requestContext": {
-        "resourceId": "512lyl",
-        "authorizer": {
-            "principalId": "unrestricted",
-            "integrationLatency": 0
-        },
-        "resourcePath": "/conferences",
+        "resourceId": "e9rcle",
+        "resourcePath": "/conferences/{year}",
         "httpMethod": "GET",
-        "extendedRequestId": "Zqw24FqaliAFvhQ=",
-        "requestTime": "14/May/2019:10:14:16 +0000",
-        "path": "/test/conferences",
+        "extendedRequestId": "ZsUmhHDuliAFvUQ=",
+        "requestTime": "14/May/2019:21:35:12 +0000",
+        "path": "/test/conferences/2020",
         "accountId": "736519287593",
         "protocol": "HTTP/1.1",
         "stage": "test",
         "domainPrefix": "aij4t1he5a",
-        "requestTimeEpoch": 1557828856880,
-        "requestId": "07db531b-7631-11e9-b515-f583d4b3594f",
+        "requestTimeEpoch": 1557869712130,
+        "requestId": "277bbee4-7690-11e9-b717-0589f49b68c8",
         "identity": {
             "cognitoIdentityPoolId": null,
             "accountId": null,
             "cognitoIdentityId": null,
             "caller": null,
-            "sourceIp": "88.128.80.209",
+            "sourceIp": "81.173.233.140",
             "principalOrgId": null,
             "accessKey": null,
             "cognitoAuthenticationType": null,
