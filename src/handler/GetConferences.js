@@ -6,13 +6,13 @@ class GetConferencesHandler {
     return event.resource === "/conferences" && event.httpMethod === "GET";
   }
 
-  handle() {
-    return lambda("getConferences")
+  handle(event) {
+    return lambda("getConferencesByYear", {year: Number.parseInt(event.queryStringParameters.year)})
       .then(result => {
         return {
           statusCode: 200,
           headers: {},
-          body: result
+          body: JSON.stringify(JSON.parse(result).payload)
         };
       })
       .catch(e => {
