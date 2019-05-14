@@ -11,14 +11,18 @@ class GetConferencesHandler {
       .then(result => {
         return {
           statusCode: 200,
-          headers: {},
-          body: JSON.stringify(JSON.parse(result).payload)
+          headers: {
+            "Access-Control-Allow-Origin": "*"
+          },
+          body: JSON.stringify({conferences: JSON.parse(result).payload})
         };
       })
       .catch(e => {
         return {
           statusCode: 500,
-          headers: {},
+          headers: {
+            "Access-Control-Allow-Origin": "*"
+          },
           body: JSON.stringify(e)
         };
       });
