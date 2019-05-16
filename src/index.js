@@ -1,5 +1,6 @@
 require("aws-xray-sdk");
 const GetConferencesHandler = require("./handler/GetConferences");
+const GetRoomsHandler = require("./handler/GetRooms");
 
 exports.handler = async (event, context) => {
     console.log(
@@ -13,10 +14,13 @@ exports.handler = async (event, context) => {
 
     const handler = [];
     handler.push(new GetConferencesHandler());
+    handler.push(new GetRoomsHandler());
     const foundHandler = handler.find(handler =>
         handler.canHandle(event, context)
     );
     if (foundHandler) {
         return foundHandler.handle(event, context);
+    } else {
+        console.log("ERROR: could not handle");
     }
 };

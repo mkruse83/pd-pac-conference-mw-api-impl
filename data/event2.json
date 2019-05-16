@@ -1,17 +1,17 @@
 {
-    "resource": "/conference/{id}/{sortkey}/rooms",
-    "path": "/conference/conference-2019-2/1553331600000%23Javaland/rooms",
+    "resource": "/conferences/{year}",
+    "path": "/conferences/2020",
     "httpMethod": "GET",
     "headers": {
         "Accept": "*/*",
         "accept-encoding": "gzip, deflate",
         "cache-control": "no-cache",
         "Host": "aij4t1he5a.execute-api.eu-central-1.amazonaws.com",
-        "Postman-Token": "454561f8-840c-4472-958d-1038520194e5",
+        "Postman-Token": "febf0e7f-02da-43bf-900b-41abaac903b0",
         "User-Agent": "PostmanRuntime/7.6.0",
-        "X-Amzn-Trace-Id": "Root=1-5cdcae74-51923357cb8d277c7179f09e",
+        "X-Amzn-Trace-Id": "Root=1-5cdb3490-3ab85624fb6a892088b7eaac",
         "X-Auth": "ab",
-        "X-Forwarded-For": "78.35.52.85",
+        "X-Forwarded-For": "81.173.233.140",
         "X-Forwarded-Port": "443",
         "X-Forwarded-Proto": "https"
     },
@@ -29,19 +29,19 @@
             "aij4t1he5a.execute-api.eu-central-1.amazonaws.com"
         ],
         "Postman-Token": [
-            "454561f8-840c-4472-958d-1038520194e5"
+            "febf0e7f-02da-43bf-900b-41abaac903b0"
         ],
         "User-Agent": [
             "PostmanRuntime/7.6.0"
         ],
         "X-Amzn-Trace-Id": [
-            "Root=1-5cdcae74-51923357cb8d277c7179f09e"
+            "Root=1-5cdb3490-3ab85624fb6a892088b7eaac"
         ],
         "X-Auth": [
             "ab"
         ],
         "X-Forwarded-For": [
-            "78.35.52.85"
+            "81.173.233.140"
         ],
         "X-Forwarded-Port": [
             "443"
@@ -53,29 +53,28 @@
     "queryStringParameters": null,
     "multiValueQueryStringParameters": null,
     "pathParameters": {
-        "sortkey": "1553331600000%23Javaland",
-        "id": "conference-2019-2"
+        "year": "2020"
     },
     "stageVariables": null,
     "requestContext": {
-        "resourceId": "djfnli",
-        "resourcePath": "/conference/{id}/{sortkey}/rooms",
+        "resourceId": "e9rcle",
+        "resourcePath": "/conferences/{year}",
         "httpMethod": "GET",
-        "extendedRequestId": "ZwAyLGjKliAFkoQ=",
-        "requestTime": "16/May/2019:00:27:32 +0000",
-        "path": "/test/conference/conference-2019-2/1553331600000%23Javaland/rooms",
+        "extendedRequestId": "ZsUmhHDuliAFvUQ=",
+        "requestTime": "14/May/2019:21:35:12 +0000",
+        "path": "/test/conferences/2020",
         "accountId": "736519287593",
         "protocol": "HTTP/1.1",
         "stage": "test",
         "domainPrefix": "aij4t1he5a",
-        "requestTimeEpoch": 1557966452398,
-        "requestId": "652d069c-7771-11e9-8031-572a57884d7a",
+        "requestTimeEpoch": 1557869712130,
+        "requestId": "277bbee4-7690-11e9-b717-0589f49b68c8",
         "identity": {
             "cognitoIdentityPoolId": null,
             "accountId": null,
             "cognitoIdentityId": null,
             "caller": null,
-            "sourceIp": "78.35.52.85",
+            "sourceIp": "81.173.233.140",
             "principalOrgId": null,
             "accessKey": null,
             "cognitoAuthenticationType": null,
