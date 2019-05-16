@@ -1,90 +1,44 @@
 {
-    "resource": "/conference/{id}/{sortkey}/rooms",
-    "path": "/conference/conference-2019-2/1553331600000%23Javaland/rooms",
+    "resource": "/conference/{id}/{sortkey}/room/{roomId}/flyer",
+    "path": "/conference/conference-2020-2/2.02/room/1584954000000#Javaland/flyer",
     "httpMethod": "GET",
-    "headers": {
-        "Accept": "*/*",
-        "accept-encoding": "gzip, deflate",
-        "cache-control": "no-cache",
-        "Host": "aij4t1he5a.execute-api.eu-central-1.amazonaws.com",
-        "Postman-Token": "454561f8-840c-4472-958d-1038520194e5",
-        "User-Agent": "PostmanRuntime/7.6.0",
-        "X-Amzn-Trace-Id": "Root=1-5cdcae74-51923357cb8d277c7179f09e",
-        "X-Auth": "ab",
-        "X-Forwarded-For": "78.35.52.85",
-        "X-Forwarded-Port": "443",
-        "X-Forwarded-Proto": "https"
-    },
-    "multiValueHeaders": {
-        "Accept": [
-            "*/*"
-        ],
-        "accept-encoding": [
-            "gzip, deflate"
-        ],
-        "cache-control": [
-            "no-cache"
-        ],
-        "Host": [
-            "aij4t1he5a.execute-api.eu-central-1.amazonaws.com"
-        ],
-        "Postman-Token": [
-            "454561f8-840c-4472-958d-1038520194e5"
-        ],
-        "User-Agent": [
-            "PostmanRuntime/7.6.0"
-        ],
-        "X-Amzn-Trace-Id": [
-            "Root=1-5cdcae74-51923357cb8d277c7179f09e"
-        ],
-        "X-Auth": [
-            "ab"
-        ],
-        "X-Forwarded-For": [
-            "78.35.52.85"
-        ],
-        "X-Forwarded-Port": [
-            "443"
-        ],
-        "X-Forwarded-Proto": [
-            "https"
-        ]
-    },
+    "headers": null,
+    "multiValueHeaders": null,
     "queryStringParameters": null,
     "multiValueQueryStringParameters": null,
     "pathParameters": {
-        "sortkey": "1553331600000%23Javaland",
-        "id": "conference-2019-2"
+        "sortkey": "1584954000000#Javaland",
+        "id": "conference-2020-2",
+        "roomId": "2.02"
     },
     "stageVariables": null,
     "requestContext": {
-        "resourceId": "djfnli",
-        "resourcePath": "/conference/{id}/{sortkey}/rooms",
-        "httpMethod": "GET",
-        "extendedRequestId": "ZwAyLGjKliAFkoQ=",
-        "requestTime": "16/May/2019:00:27:32 +0000",
-        "path": "/test/conference/conference-2019-2/1553331600000%23Javaland/rooms",
+        "path": "/conference/{id}/{sortkey}/room/{roomId}/flyer",
         "accountId": "736519287593",
-        "protocol": "HTTP/1.1",
-        "stage": "test",
-        "domainPrefix": "aij4t1he5a",
-        "requestTimeEpoch": 1557966452398,
-        "requestId": "652d069c-7771-11e9-8031-572a57884d7a",
+        "resourceId": "9ygfll",
+        "stage": "test-invoke-stage",
+        "domainPrefix": "testPrefix",
+        "requestId": "6138cf01-7815-11e9-83b5-b98f8d2dd570",
         "identity": {
             "cognitoIdentityPoolId": null,
-            "accountId": null,
             "cognitoIdentityId": null,
-            "caller": null,
-            "sourceIp": "78.35.52.85",
+            "apiKey": "test-invoke-api-key",
             "principalOrgId": null,
-            "accessKey": null,
             "cognitoAuthenticationType": null,
+            "userArn": "arn:aws:iam::736519287593:root",
+            "apiKeyId": "test-invoke-api-key-id",
+            "userAgent": "aws-internal/3 aws-sdk-java/1.11.534 Linux/4.9.137-0.1.ac.218.74.329.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.202-b08 java/1.8.0_202 vendor/Oracle_Corporation",
+            "accountId": "736519287593",
+            "caller": "736519287593",
+            "sourceIp": "test-invoke-source-ip",
+            "accessKey": "ASIA2W67YOMUZVPMBR7M",
             "cognitoAuthenticationProvider": null,
-            "userArn": null,
-            "userAgent": "PostmanRuntime/7.6.0",
-            "user": null
+            "user": "736519287593"
         },
-        "domainName": "aij4t1he5a.execute-api.eu-central-1.amazonaws.com",
+        "domainName": "testPrefix.testDomainName",
+        "resourcePath": "/conference/{id}/{sortkey}/room/{roomId}/flyer",
+        "httpMethod": "GET",
+        "extendedRequestId": "ZysvAHvWFiAFc2w=",
         "apiId": "aij4t1he5a"
     },
     "body": null,

@@ -1,9 +1,9 @@
 require("aws-xray-sdk");
 const lambda = require("../helper/callLambda");
 
-class GetRoomsHandler {
+class GetFlyerHandler {
     canHandle(event) {
-        return event.resource === "/conference/{id}/{sortkey}/rooms";
+        return event.resource === "/conference/{id}/{sortkey}/room/{roomId}/flyer";
     }
 
     handle(event) {
@@ -13,18 +13,14 @@ class GetRoomsHandler {
         })
             .then(result => {
                 const conference = JSON.parse(result).payload;
-                const rooms = conference.talks.map(talk => talk.room);
-                const roomsMap = {};
-                rooms.forEach((room) => {
-                    roomsMap[room.name] = room;
-                });
-                const res = Object.values(roomsMap);
+                const talks = conference.talks.filter(talk => talk.room.nameInLocation)
+                    .sort((a,b) => (a.from > b.from) ? 1 : ((b.from > a.from) ? -1 : 0));
                 return {
                     statusCode: 200,
                     headers: {
                         "Access-Control-Allow-Origin": "*"
                     },
-                    body: JSON.stringify({rooms: res})
+                    body: JSON.stringify({talks: talks})
                 };
             })
             .catch(e => {
@@ -39,4 +35,4 @@ class GetRoomsHandler {
     }
 }
 
-module.exports = GetRoomsHandler;
+module.exports = GetFlyerHandler;
