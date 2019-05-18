@@ -1,5 +1,5 @@
 {
-    "resource": "/conference/{id}/{sortkey}/room/{roomId}/flyer",
+    "resource": "/conference/{id}/{sortkey}/talks",
     "path": "/conference/conference-2020-2/2.02/room/1584954000000#Javaland/flyer",
     "httpMethod": "GET",
     "headers": null,
@@ -8,8 +8,7 @@
     "multiValueQueryStringParameters": null,
     "pathParameters": {
         "sortkey": "1584954000000#Javaland",
-        "id": "conference-2020-2",
-        "roomId": "2.02"
+        "id": "conference-2020-2"
     },
     "stageVariables": null,
     "requestContext": {
