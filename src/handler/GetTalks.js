@@ -1,5 +1,6 @@
 require("aws-xray-sdk");
 const lambda = require("../helper/callLambda");
+const handleResult = require("../helper/handleResult");
 
 class GetTalks {
     canHandle(event) {
@@ -7,29 +8,12 @@ class GetTalks {
     }
 
     handle(event) {
-        return lambda("getConferenceById", {
-            id: unescape(event.pathParameters.id),
-            sortkey: unescape(event.pathParameters.sortkey)
-        })
-            .then(result => {
-                const conference = JSON.parse(result).payload;
-                return {
-                    statusCode: 200,
-                    headers: {
-                        "Access-Control-Allow-Origin": "*"
-                    },
-                    body: JSON.stringify({talks: conference.talks})
-                };
-            })
-            .catch(e => {
-                return {
-                    statusCode: 500,
-                    headers: {
-                        "Access-Control-Allow-Origin": "*"
-                    },
-                    body: JSON.stringify(e)
-                };
-            });
+        return handleResult(
+            lambda("getConferenceById", {
+                id: unescape(event.pathParameters.id),
+                sortkey: unescape(event.pathParameters.sortkey)
+            }),
+            (data) => ({talks: data.talks}));
     }
 }
 

@@ -4,6 +4,7 @@ const GetRoomsHandler = require("./handler/GetRooms");
 const GetFlyerHandler = require("./handler/GetFlyer");
 const GetTalksHandler= require("./handler/GetTalks");
 const AddTalk= require("./handler/AddTalk");
+const DeleteTalk= require("./handler/DeleteTalk");
 
 exports.handler = async (event, context) => {
     console.log(
@@ -20,12 +21,13 @@ exports.handler = async (event, context) => {
     handler.push(new GetRoomsHandler());
     handler.push(new GetFlyerHandler());
     handler.push(new GetTalksHandler());
+    handler.push(new DeleteTalk());
     handler.push(new AddTalk());
     const foundHandler = handler.find(handler =>
         handler.canHandle(event, context)
     );
     if (foundHandler) {
-        return foundHandler.handle(event, context);
+        return await foundHandler.handle(event, context);
     } else {
         console.log("ERROR: could not handle");
     }
