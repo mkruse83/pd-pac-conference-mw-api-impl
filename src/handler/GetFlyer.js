@@ -8,7 +8,7 @@ class GetFlyerHandler {
 
     handle(event) {
         return lambda("getConferenceById", {
-            id: event.pathParameters.id,
+            id: unescape(event.pathParameters.id),
             sortkey: unescape(event.pathParameters.sortkey)
         })
             .then(result => {

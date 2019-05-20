@@ -3,6 +3,7 @@ const GetConferencesHandler = require("./handler/GetConferences");
 const GetRoomsHandler = require("./handler/GetRooms");
 const GetFlyerHandler = require("./handler/GetFlyer");
 const GetTalksHandler= require("./handler/GetTalks");
+const AddTalk= require("./handler/AddTalk");
 
 exports.handler = async (event, context) => {
     console.log(
@@ -19,6 +20,7 @@ exports.handler = async (event, context) => {
     handler.push(new GetRoomsHandler());
     handler.push(new GetFlyerHandler());
     handler.push(new GetTalksHandler());
+    handler.push(new AddTalk());
     const foundHandler = handler.find(handler =>
         handler.canHandle(event, context)
     );

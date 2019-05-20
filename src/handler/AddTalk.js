@@ -3,13 +3,14 @@ const lambda = require("../helper/callLambda");
 
 class GetTalks {
     canHandle(event) {
-        return event.resource === "/conference/{id}/{sortkey}/talks";
+        return event.resource === "/admin/conference/{id}/{sortkey}/talk";
     }
 
     handle(event) {
-        return lambda("getConferenceById", {
+        return lambda("addTalkToConference", {
             id: unescape(event.pathParameters.id),
-            sortkey: unescape(event.pathParameters.sortkey)
+            sortkey: unescape(event.pathParameters.sortkey),
+            talk: JSON.parse(event.body),
         })
             .then(result => {
                 const conference = JSON.parse(result).payload;
