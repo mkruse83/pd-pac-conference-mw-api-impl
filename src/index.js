@@ -5,6 +5,8 @@ const GetFlyerHandler = require("./handler/GetFlyer");
 const GetTalksHandler= require("./handler/GetTalks");
 const AddTalk= require("./handler/AddTalk");
 const DeleteTalk= require("./handler/DeleteTalk");
+const GetTopicsByMonthHandler= require("./handler/GetTopicsByMonth");
+const GetTalksByTopicHandler= require("./handler/GetTalksByTopic");
 
 exports.handler = async (event, context) => {
     console.log(
@@ -23,6 +25,8 @@ exports.handler = async (event, context) => {
     handler.push(new GetTalksHandler());
     handler.push(new DeleteTalk());
     handler.push(new AddTalk());
+    handler.push(new GetTopicsByMonthHandler());
+    handler.push(new GetTalksByTopicHandler());
     const foundHandler = handler.find(handler =>
         handler.canHandle(event, context)
     );

@@ -1,0 +1,89 @@
+{
+    "resource": "/topics/{yearAndMonth}",
+    "path": "/topics/2020-5",
+    "httpMethod": "GET",
+    "headers": {
+        "Accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "cache-control": "no-cache",
+        "Host": "aij4t1he5a.execute-api.eu-central-1.amazonaws.com",
+        "Postman-Token": "5fad594a-1d12-4538-922c-a322ad3e9cb4",
+        "User-Agent": "PostmanRuntime/7.6.0",
+        "X-Amzn-Trace-Id": "Root=1-5ce45d1b-3144e78adb8e472e2e88ebb0",
+        "X-Forwarded-For": "195.14.199.97",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+        "Accept": [
+            "*/*"
+        ],
+        "accept-encoding": [
+            "gzip, deflate"
+        ],
+        "cache-control": [
+            "no-cache"
+        ],
+        "Host": [
+            "aij4t1he5a.execute-api.eu-central-1.amazonaws.com"
+        ],
+        "Postman-Token": [
+            "5fad594a-1d12-4538-922c-a322ad3e9cb4"
+        ],
+        "User-Agent": [
+            "PostmanRuntime/7.6.0"
+        ],
+        "X-Amzn-Trace-Id": [
+            "Root=1-5ce45d1b-3144e78adb8e472e2e88ebb0"
+        ],
+        "X-Forwarded-For": [
+            "195.14.199.97"
+        ],
+        "X-Forwarded-Port": [
+            "443"
+        ],
+        "X-Forwarded-Proto": [
+            "https"
+        ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": {
+        "yearAndMonth": "2020-5"
+    },
+    "stageVariables": {
+        "env": "dev"
+    },
+    "requestContext": {
+        "resourceId": "l2wzcf",
+        "resourcePath": "/topics/{yearAndMonth}",
+        "httpMethod": "GET",
+        "extendedRequestId": "aDN8RHGaliAFvBg=",
+        "requestTime": "21/May/2019:20:18:35 +0000",
+        "path": "/test/topics/2020-5",
+        "accountId": "736519287593",
+        "protocol": "HTTP/1.1",
+        "stage": "test",
+        "domainPrefix": "aij4t1he5a",
+        "requestTimeEpoch": 1558469915364,
+        "requestId": "9c7d2ae6-7c05-11e9-b688-510bfc19576e",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "accountId": null,
+            "cognitoIdentityId": null,
+            "caller": null,
+            "sourceIp": "195.14.199.97",
+            "principalOrgId": null,
+            "accessKey": null,
+            "cognitoAuthenticationType": null,
+            "cognitoAuthenticationProvider": null,
+            "userArn": null,
+            "userAgent": "PostmanRuntime/7.6.0",
+            "user": null
+        },
+        "domainName": "aij4t1he5a.execute-api.eu-central-1.amazonaws.com",
+        "apiId": "aij4t1he5a"
+    },
+    "body": null,
+    "isBase64Encoded": false
+}
