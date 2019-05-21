@@ -1,0 +1,45 @@
+{
+    "resource": "/conference/{id}/{sortkey}/talks",
+    "path": "/conference/conference-2020-2/2.02/room/1584954000000#Javaland/flyer",
+    "httpMethod": "GET",
+    "headers": null,
+    "multiValueHeaders": null,
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": {
+        "sortkey": "1584954000000#Javaland",
+        "id": "conference-2020-2"
+    },
+    "stageVariables": null,
+    "requestContext": {
+        "path": "/conference/{id}/{sortkey}/room/{roomId}/flyer",
+        "accountId": "736519287593",
+        "resourceId": "9ygfll",
+        "stage": "test-invoke-stage",
+        "domainPrefix": "testPrefix",
+        "requestId": "6138cf01-7815-11e9-83b5-b98f8d2dd570",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "cognitoIdentityId": null,
+            "apiKey": "test-invoke-api-key",
+            "principalOrgId": null,
+            "cognitoAuthenticationType": null,
+            "userArn": "arn:aws:iam::736519287593:root",
+            "apiKeyId": "test-invoke-api-key-id",
+            "userAgent": "aws-internal/3 aws-sdk-java/1.11.534 Linux/4.9.137-0.1.ac.218.74.329.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.202-b08 java/1.8.0_202 vendor/Oracle_Corporation",
+            "accountId": "736519287593",
+            "caller": "736519287593",
+            "sourceIp": "test-invoke-source-ip",
+            "accessKey": "ASIA2W67YOMUZVPMBR7M",
+            "cognitoAuthenticationProvider": null,
+            "user": "736519287593"
+        },
+        "domainName": "testPrefix.testDomainName",
+        "resourcePath": "/conference/{id}/{sortkey}/room/{roomId}/flyer",
+        "httpMethod": "GET",
+        "extendedRequestId": "ZysvAHvWFiAFc2w=",
+        "apiId": "aij4t1he5a"
+    },
+    "body": null,
+    "isBase64Encoded": false
+}

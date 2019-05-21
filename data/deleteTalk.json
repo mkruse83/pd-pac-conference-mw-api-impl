@@ -3,49 +3,53 @@
     "path": "/admin/conference/conference%232020-3/1584954000000%23Javaland/talk",
     "httpMethod": "DELETE",
     "headers": {
-        "accept": "application/json, text/plain, */*",
-        "accept-encoding": "gzip, deflate, br",
-        "accept-language": "en-US,en;q=0.9,de;q=0.8",
-        "content-type": "application/json",
+        "Accept": "application/json, text/plain, */*",
+        "accept-encoding": "gzip, deflate",
+        "cache-control": "no-cache",
+        "Content-Type": "application/json",
         "Host": "aij4t1he5a.execute-api.eu-central-1.amazonaws.com",
-        "origin": "http://localhost:4200",
-        "referer": "http://localhost:4200/flyer/conference%232020-3%7C1584954000000%23Javaland",
+        "Origin": "http://localhost:4200",
+        "Postman-Token": "ea350a16-7adb-4d6c-ab24-354214b631a4",
+        "Referer": "http://localhost:4200/flyer/conference%232020-3%7C1584954000000%23Javaland",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36",
-        "X-Amzn-Trace-Id": "Root=1-5ce32147-37e451a11f53178f50ea9355",
-        "x-auth": "Atza|IwEBIIm7doeFuCgVKs8pqgIMpppWxeWw7zmT9PavZltqDDV--j40ayaoCGySxEa6yPIePLCTVRsWyhEcMsOtI0T_Um6dcsY-3McH8ELnnHkDYsv2ad9K6U5mOfrXIUSgqA6Z8YjT0YBEEyjDjGNAEegaL0HxGKqw17qCpqO3t-q_Y2iu1ewROinX3YoonFwVNGAOkshnYY6aGBvqXE9XaQHLjCCzicEmpzfs6VreJIAnFNqgb9oZCbwxkcceDw_TQM0o5_TaA4ta9RONovMS2mzKA0CbFJBS8nikVyS1AbDvw1f_uxDrbcQT82M82ZoLRye871d_relbiT043IknNO13CidvQ37DGhkWIboBbWSWVyDCCFQvr0Uy_CioXcNkbTrEmpHtIzFSvtqHoxKNMBiFm3A9hM9y94O9CSj0_gJssfpkew32ROmzCscWM5hu86pL-BbMx84aeiQ2OTwl7TixCiW7NEkNhLCqDvzs04m2YnJfZLEUz7GlDr1ZWrjdlU8mfhrmr-jhNMaWJRCjqSgzhu1gSTvckh-xPfK81KMN0miiPg",
+        "X-Amzn-Trace-Id": "Root=1-5ce31afd-e5f19318a0f55aa64bd75698",
+        "X-Auth": "Atza|IwEBIIm7doeFuCgVKs8pqgIMpppWxeWw7zmT9PavZltqDDV--j40ayaoCGySxEa6yPIePLCTVRsWyhEcMsOtI0T_Um6dcsY-3McH8ELnnHkDYsv2ad9K6U5mOfrXIUSgqA6Z8YjT0YBEEyjDjGNAEegaL0HxGKqw17qCpqO3t-q_Y2iu1ewROinX3YoonFwVNGAOkshnYY6aGBvqXE9XaQHLjCCzicEmpzfs6VreJIAnFNqgb9oZCbwxkcceDw_TQM0o5_TaA4ta9RONovMS2mzKA0CbFJBS8nikVyS1AbDvw1f_uxDrbcQT82M82ZoLRye871d_relbiT043IknNO13CidvQ37DGhkWIboBbWSWVyDCCFQvr0Uy_CioXcNkbTrEmpHtIzFSvtqHoxKNMBiFm3A9hM9y94O9CSj0_gJssfpkew32ROmzCscWM5hu86pL-BbMx84aeiQ2OTwl7TixCiW7NEkNhLCqDvzs04m2YnJfZLEUz7GlDr1ZWrjdlU8mfhrmr-jhNMaWJRCjqSgzhu1gSTvckh-xPfK81KMN0miiPg",
         "X-Forwarded-For": "89.1.152.168",
         "X-Forwarded-Port": "443",
         "X-Forwarded-Proto": "https"
     },
     "multiValueHeaders": {
-        "accept": [
+        "Accept": [
             "application/json, text/plain, */*"
         ],
         "accept-encoding": [
-            "gzip, deflate, br"
+            "gzip, deflate"
         ],
-        "accept-language": [
-            "en-US,en;q=0.9,de;q=0.8"
+        "cache-control": [
+            "no-cache"
         ],
-        "content-type": [
+        "Content-Type": [
             "application/json"
         ],
         "Host": [
             "aij4t1he5a.execute-api.eu-central-1.amazonaws.com"
         ],
-        "origin": [
+        "Origin": [
             "http://localhost:4200"
         ],
-        "referer": [
+        "Postman-Token": [
+            "ea350a16-7adb-4d6c-ab24-354214b631a4"
+        ],
+        "Referer": [
             "http://localhost:4200/flyer/conference%232020-3%7C1584954000000%23Javaland"
         ],
         "User-Agent": [
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36"
         ],
         "X-Amzn-Trace-Id": [
-            "Root=1-5ce32147-37e451a11f53178f50ea9355"
+            "Root=1-5ce31afd-e5f19318a0f55aa64bd75698"
         ],
-        "x-auth": [
+        "X-Auth": [
             "Atza|IwEBIIm7doeFuCgVKs8pqgIMpppWxeWw7zmT9PavZltqDDV--j40ayaoCGySxEa6yPIePLCTVRsWyhEcMsOtI0T_Um6dcsY-3McH8ELnnHkDYsv2ad9K6U5mOfrXIUSgqA6Z8YjT0YBEEyjDjGNAEegaL0HxGKqw17qCpqO3t-q_Y2iu1ewROinX3YoonFwVNGAOkshnYY6aGBvqXE9XaQHLjCCzicEmpzfs6VreJIAnFNqgb9oZCbwxkcceDw_TQM0o5_TaA4ta9RONovMS2mzKA0CbFJBS8nikVyS1AbDvw1f_uxDrbcQT82M82ZoLRye871d_relbiT043IknNO13CidvQ37DGhkWIboBbWSWVyDCCFQvr0Uy_CioXcNkbTrEmpHtIzFSvtqHoxKNMBiFm3A9hM9y94O9CSj0_gJssfpkew32ROmzCscWM5hu86pL-BbMx84aeiQ2OTwl7TixCiW7NEkNhLCqDvzs04m2YnJfZLEUz7GlDr1ZWrjdlU8mfhrmr-jhNMaWJRCjqSgzhu1gSTvckh-xPfK81KMN0miiPg"
         ],
         "X-Forwarded-For": [
@@ -71,19 +75,19 @@
         "resourceId": "1rjpyf",
         "authorizer": {
             "principalId": "unrestricted",
-            "integrationLatency": 20
+            "integrationLatency": 58
         },
         "resourcePath": "/admin/conference/{id}/{sortkey}/talk",
         "httpMethod": "DELETE",
-        "extendedRequestId": "aAIjOEI7FiAFluA=",
-        "requestTime": "20/May/2019:21:51:03 +0000",
+        "extendedRequestId": "aAEnnEI2liAFvBg=",
+        "requestTime": "20/May/2019:21:24:13 +0000",
         "path": "/test/admin/conference/conference%232020-3/1584954000000%23Javaland/talk",
         "accountId": "736519287593",
         "protocol": "HTTP/1.1",
         "stage": "test",
         "domainPrefix": "aij4t1he5a",
-        "requestTimeEpoch": 1558389063867,
-        "requestId": "5d3dc8b2-7b49-11e9-a170-cf476abbf3d3",
+        "requestTimeEpoch": 1558387453588,
+        "requestId": "9d70b5a5-7b45-11e9-82b7-afd9967c1715",
         "identity": {
             "cognitoIdentityPoolId": null,
             "accountId": null,
@@ -101,6 +105,6 @@
         "domainName": "aij4t1he5a.execute-api.eu-central-1.amazonaws.com",
         "apiId": "aij4t1he5a"
     },
-    "body": "{\"id\":\"\",\"name\":\"zzz\",\"from\":\"2020-03-23T11:00:00.000Z\",\"to\":\"2020-03-23T11:00:00.000Z\",\"room\":{\"name\":\"Room B\",\"nameInLocation\":\"2.02\"},\"topics\":[\"zz\"],\"speaker\":{\"name\":\"zz\",\"company\":\"z\",\"title\":\"zzz\"}}",
+    "body": "{\"id\":\"\",\"name\":\"tttt\",\"from\":\"2020-03-23T11:00:00.000Z\",\"to\":\"2020-03-23T11:00:00.000Z\",\"room\":{\"name\":\"Room B\",\"nameInLocation\":\"2.02\"},\"topics\":[\"tttt\"],\"speaker\":{\"name\":\"tttt\",\"company\":\"tttt\",\"title\":\"tttt\"}}",
     "isBase64Encoded": false
 }

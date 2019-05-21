@@ -3,7 +3,7 @@ const handleResult = (promise, createBody) => {
 
         const result = JSON.parse(data);
         if (result.statusCode !== 200) {
-            throw new Error('ERROR: DAL invokation failed');
+            throw new Error('ERROR: DAL invokation failed: ' + result.payload);
         }
         return {
             statusCode: 200,
@@ -13,6 +13,7 @@ const handleResult = (promise, createBody) => {
             body: JSON.stringify(createBody(result.payload))
         };
     }).catch(e => {
+        console.log("ERROR", e);
         return {
             statusCode: 500,
             headers: {

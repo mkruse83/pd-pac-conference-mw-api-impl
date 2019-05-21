@@ -2,13 +2,13 @@ require("aws-xray-sdk");
 const lambda = require("../helper/callLambda");
 const handleResult = require("../helper/handleResult");
 
-class GetTalks {
+class DeleteTalk {
     canHandle(event) {
-        return event.resource === "/admin/conference/{id}/{sortkey}/talk" && event.httpMethod === "POST";
+        return event.resource === "/admin/conference/{id}/{sortkey}/talk" && event.httpMethod === "DELETE";
     }
 
     handle(event) {
-        return handleResult(lambda("addTalkToConference", {
+        return handleResult(lambda("deleteTalkFromConference", {
             id: unescape(event.pathParameters.id),
             sortkey: unescape(event.pathParameters.sortkey),
             talk: JSON.parse(event.body),
@@ -16,4 +16,4 @@ class GetTalks {
     }
 }
 
-module.exports = GetTalks;
+module.exports = DeleteTalk;
