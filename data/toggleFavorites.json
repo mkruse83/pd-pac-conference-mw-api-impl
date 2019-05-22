@@ -1,0 +1,113 @@
+{
+    "resource": "/admin/favorites/{id}/{sortkey}/talk",
+    "path": "/admin/favorites/conference%232019-3/1553331600000%23Javaland/talk",
+    "httpMethod": "POST",
+    "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "accept-encoding": "gzip, deflate",
+        "cache-control": "no-cache",
+        "Content-Type": "application/json",
+        "Host": "aij4t1he5a.execute-api.eu-central-1.amazonaws.com",
+        "Origin": "http://localhost:4200",
+        "Postman-Token": "7f4d7573-fc7b-4a18-9cdc-a86a0cfc4219",
+        "Referer": "http://localhost:4200/flyer/conference%232019-3%7C1553331600000%23Javaland",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36",
+        "X-Amzn-Trace-Id": "Root=1-5ce563eb-dc81348a8bcd2a84a1deee30",
+        "X-Auth": "Atza|IwEBIPGP2lJhsgb84DoFOrzSWXBy2EjU_7jwtb2bR9cfCUVOZayLFouyDKrizVoU3r2IxLjytzJd1V0bJwuNRgGe_3x2Dn6IkpHnhQ1ayFKaTq_yJcnIGv026Pt7ayZBZIPeIZDiCh167Pq3tkm1NtU5aP-nMsCWDPkX4BP8067BLyuGR-vvsI3l-Uo9yRJECz5FR92XD6-omwygXk2su0NLqJn1e0iSqupvjpHnxvK5EmKv3D5kUte-0SGAzFS-ChexWFkmKUQSuTdhfPxgJh-o4u634OQkWXtsgapuzmZ80G9-ViXJ5MskzZ7CpixZY1RqYwODqqBItC_2EwhLC9cCbgAJW75yhzPWC2vZiepTdyfSOJ9YF2kI5AGWp3LqC5o8XukE2a1qWNRcssF2-gy191Y7dhhKgnFrI0R1tmXkqUl_smKsYrC5e5TlPzsptQ2j6y8mNL_EshYNMFM3o2sHJSy7jb9zBxj2kXeI3OB0YOH2rGlBh5e8BZ4o88aTruWN_Evs1EeZ7KNMTfU-pUVSiDl7LKwFHpOotDu8peUP8F_ID2puq2nQs8xfF8-FbOl4jp8",
+        "X-Forwarded-For": "89.1.172.112",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+        "Accept": [
+            "application/json, text/plain, */*"
+        ],
+        "accept-encoding": [
+            "gzip, deflate"
+        ],
+        "cache-control": [
+            "no-cache"
+        ],
+        "Content-Type": [
+            "application/json"
+        ],
+        "Host": [
+            "aij4t1he5a.execute-api.eu-central-1.amazonaws.com"
+        ],
+        "Origin": [
+            "http://localhost:4200"
+        ],
+        "Postman-Token": [
+            "7f4d7573-fc7b-4a18-9cdc-a86a0cfc4219"
+        ],
+        "Referer": [
+            "http://localhost:4200/flyer/conference%232019-3%7C1553331600000%23Javaland"
+        ],
+        "User-Agent": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36"
+        ],
+        "X-Amzn-Trace-Id": [
+            "Root=1-5ce563eb-dc81348a8bcd2a84a1deee30"
+        ],
+        "X-Auth": [
+            "Atza|IwEBIPGP2lJhsgb84DoFOrzSWXBy2EjU_7jwtb2bR9cfCUVOZayLFouyDKrizVoU3r2IxLjytzJd1V0bJwuNRgGe_3x2Dn6IkpHnhQ1ayFKaTq_yJcnIGv026Pt7ayZBZIPeIZDiCh167Pq3tkm1NtU5aP-nMsCWDPkX4BP8067BLyuGR-vvsI3l-Uo9yRJECz5FR92XD6-omwygXk2su0NLqJn1e0iSqupvjpHnxvK5EmKv3D5kUte-0SGAzFS-ChexWFkmKUQSuTdhfPxgJh-o4u634OQkWXtsgapuzmZ80G9-ViXJ5MskzZ7CpixZY1RqYwODqqBItC_2EwhLC9cCbgAJW75yhzPWC2vZiepTdyfSOJ9YF2kI5AGWp3LqC5o8XukE2a1qWNRcssF2-gy191Y7dhhKgnFrI0R1tmXkqUl_smKsYrC5e5TlPzsptQ2j6y8mNL_EshYNMFM3o2sHJSy7jb9zBxj2kXeI3OB0YOH2rGlBh5e8BZ4o88aTruWN_Evs1EeZ7KNMTfU-pUVSiDl7LKwFHpOotDu8peUP8F_ID2puq2nQs8xfF8-FbOl4jp8"
+        ],
+        "X-Forwarded-For": [
+            "89.1.172.112"
+        ],
+        "X-Forwarded-Port": [
+            "443"
+        ],
+        "X-Forwarded-Proto": [
+            "https"
+        ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": {
+        "sortkey": "1553331600000%23Javaland",
+        "id": "conference%232019-3"
+    },
+    "stageVariables": {
+        "env": "dev"
+    },
+    "requestContext": {
+        "resourceId": "l93afd",
+        "authorizer": {
+            "name": "Martin Kruse",
+            "principalId": "amzn1.account.AFIIZOEOZGTRJGTWTAHKXAD5T5LA",
+            "integrationLatency": 737,
+            "userId": "amzn1.account.AFIIZOEOZGTRJGTWTAHKXAD5T5LA",
+            "email": "kruse@uni-bonn.de"
+        },
+        "resourcePath": "/admin/favorites/{id}/{sortkey}/talk",
+        "httpMethod": "POST",
+        "extendedRequestId": "aFyMyF3eliAFp3g=",
+        "requestTime": "22/May/2019:14:59:55 +0000",
+        "path": "/test/admin/favorites/conference%232019-3/1553331600000%23Javaland/talk",
+        "accountId": "736519287593",
+        "protocol": "HTTP/1.1",
+        "stage": "test",
+        "domainPrefix": "aij4t1he5a",
+        "requestTimeEpoch": 1558537195496,
+        "requestId": "42929750-7ca2-11e9-be48-cd1e8f00aa09",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "accountId": null,
+            "cognitoIdentityId": null,
+            "caller": null,
+            "sourceIp": "89.1.172.112",
+            "principalOrgId": null,
+            "accessKey": null,
+            "cognitoAuthenticationType": null,
+            "cognitoAuthenticationProvider": null,
+            "userArn": null,
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36",
+            "user": null
+        },
+        "domainName": "aij4t1he5a.execute-api.eu-central-1.amazonaws.com",
+        "apiId": "aij4t1he5a"
+    },
+    "body": "{\"name\":\"Azure ist cool\",\"from\":\"2019-03-23T11:00:00.000Z\",\"to\":\"2019-03-23T13:00:00.000Z\",\"room\":{\"name\":\"Tokyo\",\"nameInLocation\":\"407\"},\"topics\":[\"Progressive Webapp\",\"SA\"],\"speaker\":{\"name\":\"Martin Kruse\",\"company\":\"PRODYNA SE\",\"title\":\"Prof. Dr. Dr.\"}}",
+    "isBase64Encoded": false
+}

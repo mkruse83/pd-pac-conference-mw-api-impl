@@ -1,0 +1,94 @@
+{
+    "resource": "/admin/favorites",
+    "path": "/admin/favorites",
+    "httpMethod": "GET",
+    "headers": {
+        "Accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "cache-control": "no-cache",
+        "Host": "aij4t1he5a.execute-api.eu-central-1.amazonaws.com",
+        "Postman-Token": "5fad594a-1d12-4538-922c-a322ad3e9cb4",
+        "User-Agent": "PostmanRuntime/7.6.0",
+        "X-Amzn-Trace-Id": "Root=1-5ce45d1b-3144e78adb8e472e2e88ebb0",
+        "X-Forwarded-For": "195.14.199.97",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+        "Accept": [
+            "*/*"
+        ],
+        "accept-encoding": [
+            "gzip, deflate"
+        ],
+        "cache-control": [
+            "no-cache"
+        ],
+        "Host": [
+            "aij4t1he5a.execute-api.eu-central-1.amazonaws.com"
+        ],
+        "Postman-Token": [
+            "5fad594a-1d12-4538-922c-a322ad3e9cb4"
+        ],
+        "User-Agent": [
+            "PostmanRuntime/7.6.0"
+        ],
+        "X-Amzn-Trace-Id": [
+            "Root=1-5ce45d1b-3144e78adb8e472e2e88ebb0"
+        ],
+        "X-Forwarded-For": [
+            "195.14.199.97"
+        ],
+        "X-Forwarded-Port": [
+            "443"
+        ],
+        "X-Forwarded-Proto": [
+            "https"
+        ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": {
+        "env": "dev"
+    },
+    "requestContext": {
+        "resourceId": "l93afd",
+        "authorizer": {
+            "name": "Martin Kruse",
+            "principalId": "amzn1.account.AFIIZOEOZGTRJGTWTAHKXAD5T5LA",
+            "integrationLatency": 737,
+            "userId": "amzn1.account.AFIIZOEOZGTRJGTWTAHKXAD5T5LA",
+            "email": "kruse@uni-bonn.de"
+        },
+        "resourcePath": "/admin/favorites/{id}/{sortkey}/talk",
+        "httpMethod": "POST",
+        "extendedRequestId": "aFyMyF3eliAFp3g=",
+        "requestTime": "22/May/2019:14:59:55 +0000",
+        "path": "/test/admin/favorites/conference%232019-3/1553331600000%23Javaland/talk",
+        "accountId": "736519287593",
+        "protocol": "HTTP/1.1",
+        "stage": "test",
+        "domainPrefix": "aij4t1he5a",
+        "requestTimeEpoch": 1558537195496,
+        "requestId": "42929750-7ca2-11e9-be48-cd1e8f00aa09",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "accountId": null,
+            "cognitoIdentityId": null,
+            "caller": null,
+            "sourceIp": "89.1.172.112",
+            "principalOrgId": null,
+            "accessKey": null,
+            "cognitoAuthenticationType": null,
+            "cognitoAuthenticationProvider": null,
+            "userArn": null,
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36",
+            "user": null
+        },
+        "domainName": "aij4t1he5a.execute-api.eu-central-1.amazonaws.com",
+        "apiId": "aij4t1he5a"
+    },
+    "body": null,
+    "isBase64Encoded": false
+}
